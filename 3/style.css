@@ -1,0 +1,1214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(141, 141, 237);
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+}
+.logo{
+   
+    width: 15%;
+}
+.navbar{
+    height: 100px;
+    width: 70%;
+  
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    background-image: url(images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+    position: relative;
+}
+.content{
+   height: 400px;
+   width: 50%;
+   background-color: transparent;
+   /* border: 1px solid black; */
+   position: absolute;
+   top: 10%;
+   left: 7%;
+   
+}
+.content h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.content p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+   
+}
+.content button{
+    height: 50px;
+    width: 180px;
+    margin-right: 3%;
+    color: rgb(141, 141, 237);
+    font-weight: bold;
+}
+.about{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abti{
+    height: 300px;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.abti h1{
+    font-size: 40px;
+    opacity: 0.7;
+}
+.abti p{
+    font-size: 20px;
+    opacity: 0.6;
+    margin-top: 1%;
+    line-height: 30px;
+}
+.abti button{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(141, 141, 237);
+    border: 1px solid  rgb(141, 141, 237);
+    color: white;
+    font-size: 17px;
+}
+.abtpic{
+    height: 400px;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.abtpic img{
+    height: 100%;
+    width: 100%;
+}
+.projects{
+    height: 700px;
+    width: 100%;
+}
+.prohead{
+    height: 100px;
+    width: 100%;
+  
+}
+.prohead h1{
+    margin-left: 3%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.prohead p{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 1%;
+    opacity: 0.7;
+}
+.promain{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    height: 500px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.a img{
+    height: 100%;
+    width: 100%;
+}
+.b{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b .g{
+    height: 200px;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.g img{
+    height: 100%;
+    width: 100%;
+}
+.b .d{
+    height: 200px;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.d img{
+    height: 100%;
+    width: 100%;
+}
+.b .e{
+    height: 200px;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.e img{
+    height: 100%;
+    width: 100%;
+}
+.b .f{
+    height: 200px;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.f img{
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    height: 700px;
+    width: 100%;
+    background-image:  url(images/map.jpg);
+  
+}
+.conhead{
+    background-color: blue;
+    opacity: 0.9;
+    height: 100px;
+   
+}
+.conhead h1{
+    color: white;
+    text-align: center;
+   
+}
+.conhead p{
+    color: white;
+    text-align: center;
+}
+.conmain{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    background-color: blue;
+    opacity: 0.9;
+}
+.h{
+    height: 500px;
+     width: 30%;
+     margin-top: 10%;
+    
+}
+.h h1{
+    color: white;
+}
+.h p{
+    color: white;
+}
+.h i{
+    color: white;
+    
+}
+.fa-envelope{
+    margin-left: 4%;
+}
+.i{
+    height: 500px;
+     width: 30%;
+     margin-top: 10%;
+    
+}
+.i h1{
+    color: white;
+}
+.i input{
+    height: 40px;
+    width: 40%;
+}
+.i button{
+    height: 50px;
+    width: 190px;
+    margin-left: 41%;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+footer{
+    height: 600px;
+    background-color: rgb(47, 44, 44);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+.q{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.r{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.k{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.p h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.p p{
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.q h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.q p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.q li{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.r h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.r li{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    list-style: none;
+}
+.r  i{
+    list-style: none;
+
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    list-style: none;
+}
+.k h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.k input{
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.k button{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media(max-width:980px)
+{
+    header{
+        height: auto;
+    }
+    .logo{
+        width: 8%;
+           margin-right: 10%;
+           margin-left: 2%;
+    }
+    .navbar ul li{
+        font-size: 15px;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    .container{
+        height: 350px;
+    }
+    .content{
+        height: auto;
+    }
+    .content h1{
+        font-size: 46px;
+        
+    }
+    .content p{
+        font-size: 16px;
+       
+    }
+    .content button{
+        height: 42px;
+        width: 105px;
+       font-size: 10px;
+    }
+    .about{
+        height: auto;
+        margin-top: 2%;
+      }
+      .abti{
+          height: auto;
+      }
+      .abti h1{
+          font-size: 26px;
+          opacity: 0.7;
+      }
+      .abti p{
+          font-size: 13px;
+          opacity: 0.6;
+          margin-top: 1%;
+       
+          line-height: 15px;
+      }
+      .abti button{
+          height: 37px;
+          width: 96px;
+         margin-bottom: 3%;
+          font-size: 9px;
+      }
+      .abtpic{
+       height: 250px;
+      }
+      .projects{
+        height: auto;
+     }
+     .prohead{
+         height: auto;
+     }
+     .prohead h1{
+         
+         font-size: 26px;
+         
+     }
+     .prohead p{
+         font-size: 16px;
+        
+     }
+     .promain{
+      height: auto;
+      margin-top: 3%;
+     }
+     .contact{
+        height: auto;
+       }
+   
+    
+    .conhead p{
+      
+        font-size: 13px;
+    }
+   
+    .h{
+      height: auto;
+        
+    }
+    .h h1{
+       font-size: 20px;
+    }
+    .h p{
+       
+        font-size: 13px;
+    }
+    .h i{
+        color: white;
+        font-size: 14px;
+    }
+    .fa-envelope{
+        margin-left: 4%;
+    }
+    .i{
+       height: auto;
+    }
+    .i h1{
+        font-size: 19px;
+    }
+    .i input{
+        height: 40px;
+        font-size: 15px;
+        width: 40%;
+    }
+   textarea{
+    width: 80%;
+    height: 20%;
+   }
+    .i button{
+        height: 30px;
+        width: 100px;
+        margin-left: 45%;
+        font-size: 11px;
+     }
+     footer{
+        height: 400px;
+       
+        width: 980px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 8%;
+    }
+    .p p{
+        font-size: 13px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .q li{
+        font-size: 13px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 30px;
+       
+    }
+    .r i{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 3%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 25px;
+        background-color: blue;
+        color: white;
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:720px)
+{
+    header{
+        height: auto;
+    }
+    .logo{
+        width: 8%;
+           margin-right: 10%;
+           margin-left: 2%;
+    }
+    .navbar ul li{
+        font-size: 13px;
+        margin-left: 3%;
+        margin-top: 9%;
+    }
+    .container{
+        height: 350px;
+    }
+    .content{
+        height: auto;
+    }
+    .content h1{
+        font-size: 44px;
+        
+    }
+    .content p{
+        font-size: 14px;
+       
+    }
+    .content button{
+        height: 40px;
+        width: 98px;
+       font-size: 10px;
+    }
+    .about{
+        height: auto;
+        margin-top: 2%;
+      }
+      .abti{
+          height: auto;
+      }
+      .abti h1{
+          font-size: 24px;
+          opacity: 0.7;
+      }
+      .abti p{
+          font-size: 11px;
+          opacity: 0.6;
+          margin-top: 1%;
+       
+          line-height: 15px;
+      }
+      .abti button{
+          height: 35px;
+          width: 94px;
+         margin-bottom: 3%;
+          font-size: 9px;
+      }
+      .abtpic{
+       height: 250px;
+      }
+      .projects{
+        height: auto;
+     }
+     .prohead{
+         height: auto;
+     }
+     .prohead h1{
+         
+         font-size: 24px;
+         
+     }
+     .prohead p{
+         font-size: 14px;
+        
+     }
+     .promain{
+      height: auto;
+      margin-top: 3%;
+     }
+     .contact{
+        height: auto;
+       }
+   
+    
+    .conhead p{
+      
+        font-size: 13px;
+    }
+   
+    .h{
+      height: auto;
+        
+    }
+    .h h1{
+       font-size: 19px;
+    }
+    .h p{
+       
+        font-size: 11px;
+    }
+    .h i{
+        color: white;
+        font-size: 12px;
+    }
+    .fa-envelope{
+        margin-left: 4%;
+    }
+    .i{
+       height: auto;
+    }
+    .i h1{
+        font-size: 17px;
+    }
+    .i input{
+        height: 40px;
+        font-size: 13px;
+        width: 40%;
+    }
+   textarea{
+    width: 80%;
+    height: 20%;
+   }
+    .i button{
+        height: 30px;
+        width: 90px;
+        margin-left: 35%;
+        font-size: 10px;
+     }
+     footer{
+        height: 400px;
+       
+        width: 720px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 8%;
+    }
+    .p p{
+        font-size: 10px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .q li{
+        font-size: 12px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 30px;
+       
+    }
+    .r i{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    
+    .k input{
+        font-size: 13px;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 25px;
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+    header{
+        height: auto;
+    }
+    .logo{
+        width: 8%;
+           margin-right: 10%;
+           margin-left: 2%;
+    }
+    .navbar ul li{
+        font-size: 13px;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+    .container{
+        height: 350px;
+    }
+    .content{
+        height: auto;
+    }
+    .content h1{
+        font-size: 42px;
+        
+    }
+    .content p{
+        font-size: 12px;
+       
+    }
+    .content button{
+        height: 40px;
+        width: 95px;
+       font-size: 10px;
+    }
+    .about{
+        height: auto;
+        margin-top: 2%;
+      }
+      .abti{
+          height: auto;
+      }
+      .abti h1{
+          font-size: 22px;
+          opacity: 0.7;
+      }
+      .abti p{
+          font-size: 9px;
+          opacity: 0.6;
+          margin-top: 1%;
+       
+          line-height: 15px;
+      }
+      .abti button{
+          height: 35px;
+          width: 92px;
+         margin-bottom: 3%;
+          font-size: 8px;
+      }
+      .abtpic{
+       height: 250px;
+      }
+      .projects{
+        height: auto;
+     }
+     .prohead{
+         height: auto;
+     }
+     .prohead h1{
+         
+         font-size: 22px;
+         
+     }
+     .prohead p{
+         font-size: 12px;
+        
+     }
+     .promain{
+      height: auto;
+      margin-top: 3%;
+     }
+     .contact{
+        height: auto;
+       }
+   
+    
+    .conhead p{
+      
+        font-size: 11px;
+    }
+   
+    .h{
+      height: auto;
+        
+    }
+    .h h1{
+       font-size: 18px;
+    }
+    .h p{
+       
+        font-size: 9px;
+    }
+    .h i{
+        color: white;
+        font-size: 11px;
+    }
+    .fa-envelope{
+        margin-left: 4%;
+    }
+    .i{
+       height: auto;
+    }
+    .i h1{
+        font-size: 15px;
+    }
+    .i input{
+        height: 40px;
+        font-size: 11px;
+        width: 40%;
+    }
+   textarea{
+    width: 80%;
+    height: 20%;
+   }
+    .i button{
+        height: 30px;
+        width: 80px;
+        margin-left: 35%;
+        font-size: 9px;
+     }
+     footer{
+        height: 400px;
+       
+        width: 576px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 5%;
+    }
+    .p h1{
+        font-size: 25px;
+    }
+    .p p{
+        font-size: 11px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 7%;
+    }
+    .q h1{
+        font-size: 25px;
+    }
+    .q li{
+        font-size: 10px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 25px;
+       
+    }
+    .r i{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    .k h1{
+        font-size: 25px;
+    }
+    .k input{
+        font-size: 10px;
+        width: 100%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 10px;
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px)
+{
+    header{
+        height: auto;
+    }
+    .logo{
+        width: 8%;
+           margin-right: 10%;
+           margin-left: 2%;
+    }
+    .navbar ul li{
+        font-size: 13px;
+        margin-left: 3%;
+        margin-top: 12%;
+    }
+    .container{
+        height: 350px;
+    }
+    .content{
+        height: auto;
+    }
+    .content h1{
+        font-size: 40px;
+        
+    }
+    .content p{
+        font-size: 10px;
+       
+    }
+    .content button{
+        height: 40px;
+        width: 90px;
+       font-size: 10px;
+    }
+    .about{
+      height: auto;
+      margin-top: 2%;
+    }
+    .abti{
+        height: auto;
+    }
+    .abti h1{
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    .abti p{
+        font-size: 7px;
+        opacity: 0.6;
+        margin-top: 1%;
+     
+        line-height: 15px;
+    }
+    .abti button{
+        height: 35px;
+        width: 90px;
+       margin-bottom: 3%;
+        font-size: 8px;
+    }
+    .abtpic{
+     height: 250px;
+    }
+   
+    .projects{
+       height: auto;
+    }
+    .prohead{
+        height: auto;
+    }
+    .prohead h1{
+        
+        font-size: 20px;
+        
+    }
+    .prohead p{
+        font-size: 10px;
+       
+    }
+    .promain{
+     height: auto;
+     margin-top: 3%;
+    }
+    
+    .contact{
+        height: auto;
+       }
+   
+    
+    .conhead p{
+      
+        font-size: 9px;
+    }
+   
+    .h{
+      height: auto;
+        
+    }
+    .h h1{
+       font-size: 17px;
+    }
+    .h p{
+       
+        font-size: 7px;
+    }
+    .h i{
+        color: white;
+        font-size: 10px;
+    }
+    .fa-envelope{
+        margin-left: 4%;
+    }
+    .i{
+       height: auto;
+    }
+    .i h1{
+        font-size: 13px;
+    }
+    .i input{
+        height: 40px;
+        font-size: 10px;
+        width: 40%;
+    }
+   textarea{
+    width: 80%;
+    height: 20%;
+   }
+    .i button{
+        height: 30px;
+        width: 80px;
+        margin-left: 25%;
+        font-size: 8px;
+     }
+     footer{
+        height: 400px;
+       
+        width: 480px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 5%;
+    }
+    .p h1{
+        font-size: 20px;
+    }
+    .p p{
+        font-size: 10px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 7%;
+    }
+    .q h1{
+        font-size: 20px;
+    }
+    .q li{
+        font-size: 10px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 20px;
+       
+    }
+    .r i{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    .k h1{
+        font-size: 20px;
+    }
+    .k input{
+        font-size: 10px;
+        width: 100%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 10px;
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+    }
+    
+ }                                            
+   
+    
