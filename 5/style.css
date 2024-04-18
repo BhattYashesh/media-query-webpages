@@ -1,0 +1,1109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(250, 87, 28);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .logo{
+    width: 30%;
+    height: 120px;
+    /* border: 1px solid black; */
+    
+    
+    line-height: 120px;
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20%;
+}
+header .navbar{
+    width: 70%;
+    height: 120px;
+    /* border: 1px solid black; */
+   
+}
+.navbar li{
+    list-style: none;
+   
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   display: inline-block;
+    font-size: 22px;
+    margin-left: 12%;
+    line-height: 120px;
+    color: white;
+}
+li:first-child{
+    color: black;
+}
+.template{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(images/i1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.template h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 13%;
+}
+.template p{
+    font-size: 20px;
+   
+    color: white;
+    
+}
+.template button{
+    font-size: 20px;
+    
+    color: white;
+    background-color: rgb(250, 87, 28);
+    padding: 10px 30px;
+}
+.about{
+    height: 750px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.about h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+.about hr{
+    width: 30%;
+    color: rgb(250, 87, 28);
+}
+.about p{
+    font-size: 20px;
+    
+    color: black;
+}
+.abtmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.abtmain .a{
+    width: 41%;
+    height: 420px;
+    /* border: 1px solid black; */
+   
+    margin-left: 6%;
+}
+.abtmain .b{
+    width: 41%;
+    height: 420px;
+    /* border: 1px solid black; */
+    
+    margin-left: 6%;
+}
+.b img{
+    height: 100%;
+    width: 100%;
+}
+.a h1{
+    font-size: 35px;
+   
+}
+.a p{
+    font-size: 20px;
+   opacity: 0.8;
+}
+.about button{
+    width: 100%;
+    font-size: 20px;
+   background-color: black;
+   color: white;
+   padding: 10px 30px;
+   margin-top: 25%;
+}
+.services{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.services h1{
+    color:  rgb(250, 87, 28);
+    font-size: 50px;
+}
+.services hr{
+    color:  rgb(250, 87, 28);
+    width: 20%;
+}
+.servpic{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.servpic p{
+   color: black;
+    font-size: 20px;
+}
+.servpic .p{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+  
+    
+}
+.servpic .q{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+   
+   
+}
+.servpic .r{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+   
+    
+}
+.servpic .x{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+    
+   
+}
+.servpic .y{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+    
+  
+}
+.servpic .z{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+    
+    
+}
+.servpic .p img{
+    height: 100%;
+    width: 100%;
+}
+.servpic .q img{
+    height: 100%;
+    width: 100%;
+}
+.servpic .r img{
+    height: 100%;
+    width: 100%;
+}
+.servpic .x img{
+    height: 100%;
+    width: 100%;
+}
+.servpic .y img{
+    height: 100%;
+    width: 100%;
+}
+.servpic .z img{
+    height: 100%;
+    width: 100%;
+}
+.blog{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.blog h1{
+    color: black;
+    font-size: 50px;
+}
+.blog hr{
+    color:  rgb(250, 87, 28);
+    width: 20%;
+}
+.blog p{
+    font-size: 20px;
+}
+.blogmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogmain .c{
+    width: 38%;
+    height: 500px;
+    /* border: 1px solid black; */
+   
+   
+    position: relative;
+}
+.blogmain .d{
+    width: 38%;
+    height: 500px;
+    /* border: 1px solid black; */
+   
+   
+    position: relative;
+}
+.c img{
+    width: 100%;
+    height: 50%;
+   
+}
+.d img{
+    width: 100%;
+    height: 50%;
+   
+}
+.c button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    background-color:  rgb(250, 87, 28);
+    color: white;
+    font-size: 20px;
+}
+.d button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    background-color:  rgb(250, 87, 28);
+    color: white;
+    font-size: 20px;
+}
+.c h2{
+    font-size: 25px;
+}
+.c p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.d h2{
+    font-size: 25px;
+}
+.d p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.contact{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+}
+.contact h1{
+    color: white;
+    font-size: 50px;
+}
+.contact hr{
+    color: white;
+    width: 20%;
+}
+.subcontact{
+    height: 500px;
+    width: 40%;
+    background-color: white;
+}
+.subcontact input{
+    width: 80%;
+    height: 50px;
+}
+.subcontact input{
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+}
+.subcontact textarea{
+    margin-top: 2%;
+    font-size: 15px;
+}
+.subcontact button{
+    
+    padding: 15px 40px;
+    background-color:  black;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(250, 87, 28);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+  
+    
+}
+.i{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+}
+.j{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+}
+.k{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+}
+.h h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.h p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.i h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.i p{
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.j h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.j p{
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.k h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.k p{
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+.copyright{
+    height: 100px;
+    width: 100%;
+}
+.copyright p{
+  font-size: 30px;
+  margin-top: 3%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     /* media query */
+
+
+
+
+@media(max-width:980px)
+{
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .logo h1{
+        font-size: 26px;
+    }
+    .navbar li{
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    .template{
+        height: auto;
+    }
+    .template h1{
+        font-size: 30px;
+        
+    }
+    .template p{
+        font-size: 14px;
+       
+    }
+    .template button{
+        font-size: 16px;
+        margin-bottom: 5%;
+      
+        padding: 10px 35px;
+    }
+    .about{
+        height: auto;
+    }
+    .about h1{
+        font-size: 26px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .abtmain .a{
+        width: 41%;
+        height: auto;
+    }
+    .abtmain .b{
+        width: 41%;
+        height: auto;
+    }
+    .a h1{
+        font-size: 17px;
+     }
+    .a p{
+        font-size: 12px;
+       opacity: 0.8;
+     }
+    .about button{
+       font-size: 16px;
+       padding: 10px 35px;
+    }
+    .c p{
+        font-size: 13px;
+    }
+    .d p{
+        font-size: 13px;
+    }
+    .subcontact textarea{
+       width: 80%;
+    }
+    .h p{
+        font-size: 13px;
+    }
+    .copyright p{
+        font-size: 20px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:720px)
+{
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .logo h1{
+        font-size: 24px;
+    }
+    .navbar li{
+        font-size: 13px;
+        margin-left: 4%;
+    }
+    .template{
+        height: auto;
+    }
+    .template h1{
+        font-size: 27px;
+        margin-right: 4%;
+    }
+    .template p{
+        font-size: 12px;
+        margin-right: 4%;
+    }
+    .template button{
+        font-size: 14px;
+        margin-bottom: 5%;
+        margin-right: 4%;
+        padding: 10px 30px;
+    }
+    .about{
+        height: auto;
+    }
+    .about h1{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 11px;
+    }
+    .abtmain .a{
+        width: 41%;
+        height: auto;
+    }
+    .abtmain .b{
+        width: 41%;
+        height: auto;
+    }
+    .a h1{
+        font-size: 15px;
+     }
+    .a p{
+        font-size: 10px;
+       opacity: 0.8;
+     }
+    .about button{
+       font-size: 14px;
+       padding: 10px 30px;
+    }
+    .services{
+        height: auto;
+    }
+    .services h1{
+        font-size: 34px;
+    }
+    .services p{
+        font-size: 12px;
+    }
+    .servpic{
+        height: auto;
+    }
+     .servpic .p{
+         height: auto;
+     }
+     .servpic .q{
+         height: auto;
+     }
+     .servpic .r{
+         height: auto;
+     }
+     .servpic .x{
+         height: auto;
+     }
+     .servpic .y{
+        height: auto;
+     }
+     .servpic .z{
+        height: auto;
+     }
+     .blog{
+        height: auto;
+     }
+     .blog h1{
+         font-size: 38px;
+     }
+     .blog p{
+         font-size: 20px;
+     }
+     .blogmain{
+       height: auto;
+     }
+     .c button{
+        padding: 10px 14px;
+       font-size: 11px;
+     }
+     .d button{
+        padding: 10px 14px;
+        font-size: 11px;
+     }
+     .c h2{
+         font-size: 16px;
+     }
+     .c p{
+         font-size: 12px;
+         opacity: 0.7;
+     }
+     .d h2{
+         font-size: 16px;
+     }
+     .d p{
+         font-size: 12px;
+         opacity: 0.7;
+     }
+     .h{
+        height: auto;
+    }
+    .i{
+        height: auto;
+    }
+    .j{
+        height: auto;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 8%;
+    }
+    .h h1{
+        font-size: 20px;
+    }
+    .h p{
+        font-size: 14px;
+    }
+    .i h1{
+        font-size: 20px;
+    }
+    .i p{
+        font-size: 14px;
+     }
+    .j h1{
+        font-size: 20px;
+    }
+    .j p{
+        font-size: 14px;
+    }
+    .k h1{
+        font-size: 20px;
+    }
+    .k p{
+        font-size: 14px;
+     }
+     .copyright p{
+        font-size: 20px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .logo h1{
+        font-size: 22px;
+    }
+    .navbar li{
+        font-size: 11px;
+        margin-left: 6%;
+       }
+     .template{
+        height: auto;
+    }
+    .template h1{
+        font-size: 25px;
+    }
+    .template p{
+        font-size: 10px;
+        margin-right: 4%;
+    }
+    .template button{
+        font-size: 12px;
+        margin-bottom: 5%;
+        margin-right: 3%;
+        padding: 10px 25px;
+    }
+    .about{
+        height: auto;
+    }
+    .about h1{
+        font-size: 22px;
+    }
+    .about p{
+        font-size: 9px;
+    }
+    .abtmain .a{
+        width: 41%;
+        height: auto;
+    }
+    .abtmain .b{
+        width: 41%;
+        height: auto;
+    }
+    .a h1{
+        font-size: 13px;
+     }
+    .a p{
+        font-size: 9px;
+       opacity: 0.8;
+     }
+    .about button{
+       font-size: 12px;
+       padding: 10px 25px;
+    }
+    .services{
+        height: auto;
+    }
+    .services h1{
+        font-size: 32px;
+    }
+    .services p{
+        font-size: 10px;
+    }
+    .servpic{
+        height: auto;
+    }
+     .servpic .p{
+         height: auto;
+     }
+     .servpic .q{
+         height: auto;
+     }
+     .servpic .r{
+         height: auto;
+     }
+     .servpic .x{
+         height: auto;
+     }
+     .servpic .y{
+        height: auto;
+     }
+     .servpic .z{
+        height: auto;
+     }
+     .blog{
+        height: auto;
+     }
+     .blog h1{
+         font-size: 35px;
+     }
+     .blog p{
+         font-size: 18px;
+     }
+     .blogmain{
+       height: auto;
+     }
+     .c button{
+        padding: 10px 12px;
+       font-size: 10px;
+     }
+     .d button{
+        padding: 10px 12px;
+        font-size: 10px;
+     }
+     .c h2{
+         font-size: 14px;
+     }
+     .c p{
+         font-size: 12px;
+         opacity: 0.7;
+     }
+     .d h2{
+         font-size: 14px;
+     }
+     .d p{
+         font-size: 12px;
+         opacity: 0.7;
+     }
+     .h{
+        height: auto;
+    }
+    .i{
+        height: auto;
+    }
+    .j{
+        height: auto;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 8%;
+    }
+    .h h1{
+        font-size: 18px;
+    }
+    .h p{
+        font-size: 12px;
+    }
+    .i h1{
+        font-size: 18px;
+    }
+    .i p{
+        font-size: 12px;
+     }
+    .j h1{
+        font-size: 18px;
+    }
+    .j p{
+        font-size: 12px;
+    }
+    .k h1{
+        font-size: 18px;
+    }
+    .k p{
+        font-size: 12px;
+     }
+     .copyright p{
+        font-size: 17px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px)
+{
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .navbar li{
+        font-size: 10px;
+        margin-left: 8%;
+    }
+    .template{
+        height: auto;
+    }
+    .template h1{
+        font-size: 20px;
+    }
+    .template p{
+        font-size: 10px;
+    }
+    .template button{
+        font-size: 10px;
+        margin-bottom: 5%;
+        padding: 10px 20px;
+    }
+    .about{
+        height: auto;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 8px;
+    }
+    .abtmain .a{
+        width: 41%;
+        height: auto;
+    }
+    .abtmain .b{
+        width: 41%;
+        height: auto;
+    }
+    .a h1{
+        font-size: 11px;
+     }
+    .a p{
+        font-size: 7px;
+       opacity: 0.8;
+     }
+    .about button{
+       font-size: 10px;
+       padding: 10px 20px;
+    }
+    .services{
+        height: auto;
+    }
+    .services h1{
+        font-size: 30px;
+    }
+    .services p{
+        font-size: 8px;
+    }
+    .servpic{
+        height: auto;
+    }
+     .servpic .p{
+         height: auto;
+     }
+     .servpic .q{
+         height: auto;
+     }
+     .servpic .r{
+         height: auto;
+     }
+     .servpic .x{
+         height: auto;
+     }
+     .servpic .y{
+        height: auto;
+     }
+     .servpic .z{
+        height: auto;
+     }
+     .blog{
+       height: auto;
+    }
+    .blog h1{
+        font-size: 30px;
+    }
+    .blog p{
+        font-size: 15px;
+    }
+    .blogmain{
+      height: auto;
+    }
+    .c button{
+       padding: 10px 10px;
+      font-size: 10px;
+    }
+    .d button{
+       padding: 10px 10px;
+       font-size: 10px;
+    }
+    .c h2{
+        font-size: 12px;
+    }
+    .c p{
+        font-size: 10px;
+        opacity: 0.7;
+    }
+    .d h2{
+        font-size: 12px;
+    }
+    .d p{
+        font-size: 10px;
+        opacity: 0.7;
+    }
+    .h{
+        height: auto;
+    }
+    .i{
+        height: auto;
+    }
+    .j{
+        height: auto;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 8%;
+    }
+    .h h1{
+        font-size: 15px;
+    }
+    .h p{
+        font-size: 10px;
+    }
+    .i h1{
+        font-size: 15px;
+    }
+    .i p{
+        font-size: 10px;
+     }
+    .j h1{
+        font-size: 15px;
+    }
+    .j p{
+        font-size: 10px;
+    }
+    .k h1{
+        font-size: 15px;
+    }
+    .k p{
+        font-size: 10px;
+     }
+     .copyright p{
+        font-size: 15px;
+     }
+}
