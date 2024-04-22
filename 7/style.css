@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo h1{
+    font-size: 40px;
+    color: white;
+}
+.navbar{
+    height: 100px;
+    width: 80%;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 100px;
+}
+.navbar nav ul li{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)) ,url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h1{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.container p{
+    font-size: 20px;
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+}
+.container button{
+    height: 40px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.work{
+    height: 800px;
+    width: 100%;
+    margin-top: 3%;
+}
+.workh{
+    height: 100px;
+    width: 100%;
+}
+.workh h1{
+    font-size: 30px;
+    text-align: center;
+     color: black;
+}
+.workh hr{
+    height: 5px;
+    width: 4%;
+    background-color: black;
+    margin-left: 48%;
+}
+.workm{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a{
+    height: 300px;
+    width: 30%;
+}
+.a img{
+    height: 100%;
+    width: 100%;
+}
+.b{
+    height: 300px;
+    width: 30%;
+}
+.b img{
+    height: 100%;
+    width: 100%;
+}
+.c{
+    height: 300px;
+    width: 30%;
+}
+.c img{
+    height: 100%;
+    width: 100%;
+}
+.d{
+    height: 300px;
+    width: 30%;
+}
+.d img{
+    height: 100%;
+    width: 100%;
+}
+.e{
+    height: 300px;
+    width: 30%;
+}
+.e img{
+    height: 100%;
+    width: 100%;
+}
+.f{
+    height: 300px;
+    width: 30%;
+}
+.f img{
+    height: 100%;
+    width: 100%;
+}
+.blog{
+    height: 600px;
+    width: 100%;
+}
+.blogh{
+    height: 50px;
+    width: 100%;
+}
+.blogh h1{
+    font-size: 30px;
+    text-align: center;
+     color: black;
+}
+.blogh hr{
+    height: 5px;
+    width: 4%;
+    background-color: black;
+    margin-left: 48%;
+}
+.blogm{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.g{
+    height: 500px;
+    width: 40%;
+}
+.g img{
+    height: 50%;
+    width:100%;
+} 
+.g b{
+    font-size: 25px;
+}
+.g p{
+    margin-top: 2%;
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+}
+.g button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 20px;
+}
+.h{
+    height: 500px;
+    width: 40%;
+}
+.h img{
+    height: 50%;
+    width:100%;
+} 
+.h b{
+    font-size: 25px;
+}
+.h p{
+    margin-top: 2%;
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+}
+.h button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.team{
+    height: 500px;
+    width: 100%;
+}
+.teamh{
+    height: 50px;
+    width: 100%;
+}
+.teamh h1{
+    font-size: 30px;
+    text-align: center;
+     color: black;
+}
+.teamh hr{
+    height: 5px;
+    width: 3%;
+    background-color: black;
+    margin-left: 48.5%;
+}
+.teamain{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+}
+.i{
+    height: 400px;
+    width: 30%;
+}
+.i img{
+    height: 100%;
+    width: 100%;
+}
+.j{
+    height: 400px;
+    width: 30%;
+}
+.j img{
+    height: 100%;
+    width: 100%;
+}
+.k{
+    height: 400px;
+    width: 30%;
+}
+.k img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    height: 500px;
+    width: 100%;
+    margin-top: 2%;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)) , url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conh{
+    height: 50px;
+    width: 100%;
+}
+.conh h1{
+    font-size: 30px;
+    text-align: center;
+     color: black;
+}
+.conh hr{
+    height: 5px;
+    width: 5%;
+    background-color: black;
+    margin-left: 47.5%;
+    border: transparent;
+}
+.conm{
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+.conm input{
+    height: 50px;
+    width: 30%;
+    margin-left: 3%;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+   
+   
+}
+.conm textarea{
+    margin-left: 3%;
+    width: 97%;
+    font-size: 18px;
+   color: white;
+   background-color: black;
+   
+   
+}
+
+.conm button{
+    height: 40px;
+    width: 180px;
+    background-color: limegreen;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 80%;
+}
+.copyright{
+    height: 70px;
+    width: 100%;
+    color: darkgray;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mediaquery */
+
+@media(max-width:980px)
+{
+    .container button{
+        margin-left: 40%;
+    }
+    .g b{
+        font-size: 17px;
+    }
+    .g p{
+        font-size: 15px;
+        }
+    .g button{
+       width: 130px;
+        font-size: 17px;
+    }
+    .h b{
+        font-size: 17px;
+    }
+    .h p{
+        font-size: 15px;
+        }
+    .h button{
+       width: 130px;
+        font-size: 17px;
+    }
+    .conm input{
+       width: 29.5%;
+       font-size: 16px;
+    }
+    .conm textarea{
+        width: 96.5%;
+        font-size: 16px;
+     }
+    
+    .conm button{
+        margin-left: 69%;
+    }
+}
+
+
+
+
+
+
+@media(max-width:720px)
+{
+    .logo h1{
+        font-size: 30px;
+    }
+    .navbar nav ul li{
+        font-size: 17px;
+    }
+    .container h1{
+        font-size: 35px;
+    }
+    .container p{
+        font-size: 17px;
+    }
+    .container button{
+        margin-left: 37%;
+    }
+    .g b{
+        font-size: 12px;
+    }
+    .g p{
+        font-size: 12px;
+        }
+    .g button{
+       width: 110px;
+        font-size: 15px;
+    }
+    .h b{
+        font-size: 12px;
+    }
+    .h p{
+        font-size: 12px;
+        }
+    .h button{
+       width: 110px;
+        font-size: 15px;
+    }
+    .conm button{
+        width: 140px;
+        font-size: 14px;
+        margin-left: 67%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+    .logo h1{
+        font-size: 25px;
+    }
+    .navbar nav ul li{
+        font-size: 13px;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 14px;
+        margin-right: 3%;
+    }
+    .container button{
+        margin-left: 33%;
+    }
+    .g b{
+        font-size: 10px;
+    }
+    .g p{
+        font-size: 10px;
+        }
+    .g button{
+       width: 90px;
+        font-size: 12px;
+    }
+    .h b{
+        font-size: 10px;
+    }
+    .h p{
+        font-size: 10px;
+        }
+    .h button{
+       width: 90px;
+        font-size: 12px;
+       
+    }
+    .conm button{
+        width: 140px;
+        font-size: 14px;
+        margin-left: 58%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px)
+{
+    .logo h1{
+        font-size: 20px;
+    }
+    .navbar nav ul li{
+        font-size: 10px;
+    }
+    .container{
+        height: auto;
+    }
+    .container h1{
+        font-size: 25px;
+      
+    }
+    .container p{
+        font-size: 13px;
+        margin-right: 3%;
+    }
+    .container button{
+        width: 140px;
+        margin-left: 33%;
+        margin-bottom: 8%;
+    }
+    .g b{
+        font-size: 8px;
+    }
+    .g p{
+        font-size: 10px;
+        }
+    .g button{
+       width: 90px;
+        font-size: 9px;
+    }
+    .h b{
+        font-size: 8px;
+    }
+    .h p{
+        font-size: 10px;
+        }
+    .h button{
+       width: 90px;
+        font-size: 10px;
+       
+    }
+    .conm input{
+        height: 50px;
+        width: 29%;
+        margin-left: 3%;
+        font-size: 12px;
+      
+    }
+    .conm textarea{
+        margin-left: 3%;
+        width: 97%;
+        height: 40%;
+     }
+     .conm button{
+        width: 120px;
+        font-size: 12px;
+        margin-left: 58%;
+    }
+    .copyright p{
+        font-size: 15px;
+    }
+}
